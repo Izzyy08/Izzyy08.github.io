@@ -1,0 +1,125 @@
+.dropbtn{
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 30px;
+    padding-top: 0px;
+    bottom: -10%;
+    left: 5px;
+    box-sizing: border-box;
+    color: #bc604a;
+    margin-top: -10%;
+    position: absolute-right;
+    width: 100%;
+    top: 0px;
+    font-size: 40px;
+    background-color: transparent;
+ border: none;
+}
+h1{
+    top: 0;
+}
+
+ h4
+{
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 30px;
+    padding-top: 0px;
+    bottom: 0;
+    left: 5px;
+    box-sizing: border-box;
+    color: #bc604a;
+    margin: 0;
+    position: absolute-right;
+    width: 100%;
+    top: 80px;
+    font-size: 18px;
+}
+
+#catintro{
+    
+   display:inline-block; 
+   margin:3px;
+   margin-bottom: 5px; 
+   margin-top: 2%;
+   float:right; 
+   position:absolute-right;
+   width:75%;
+   margin-right: 0;
+   border:5px solid #f3b597;
+   height: 75%;
+   padding-bottom: 20px;
+   border-radius: 10px;
+}
+
+.catpic{
+    border:5px dashed #bc604a;
+    width: 70%;
+    position: absolute-left;
+    margin: 15px;
+}
+.catpic2{
+    border:5px dashed #f3b597;
+    width: 70%;
+    position: absolute-right;
+    margin: 15px;
+    display:inline-block;
+    right:250px;
+}
+.AboutCat1{
+      text-align: justify;
+  text-justify: inter-word;
+margin-top: 8%;
+  width: 450px;
+ height:200px;
+  display:inline-block;
+  position: absolute;
+  margin-left: 5%;
+  overflow: auto;
+  font-size: 20px;
+  font-family: garamond,rockwell, baskerville;
+}
+.AboutCat2{
+      text-align: justify;
+  text-justify: inter-word;
+margin-top: 8%;
+  width: 450px;
+ height:200px;
+  display:inline-block;
+  position: absolute-left;
+  margin-left: 3%;
+  overflow: auto;
+  font-size: 20px;
+  font-family: garamond,rockwell, baskerville;
+padding-right: 10%;
+padding-top: 0;}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: -10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 120px;
+  left: 30px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 20px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: transparent;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: transparent;}
