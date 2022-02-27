@@ -24,105 +24,30 @@ and open the template in the editor.
 </script>
     </head>
     <body>
-        <style>
-        @keyframes backgroundcolor {
-    0% {
-        background-color: #bc604a
-    }
-
-    30% {
-        background-color: #f3b597
-    }
-
-    60% {
-        background-color: #bc604a
-    }
-
-    90% {
-        background-color: #f3b597
-    }
-
-    100% {
-        background-color: #bc604a
-    }
-}
-
-body {
-    -webkit-animation: backgroundcolor 25s infinite;
-    animation: backgroundcolor 10s infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
-}
+       
+    <style>
+        body{
+            background-color: #bc604a;
+            background-image: url('Images/main4.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+        }
    </style>
    
-   <div id="cartoon">
-       <a  href="Homepage.html"><img  onmouseover="big(this)" onmouseout="normal(this)" src="Images/f4.jpg" alt="a 2d image that is created by using AI to represent Nur Izzaty." class="center"/> </a>
-   </div>
-     <div id="intro">
-         <h1><u>Welcome to Nur Izzaty's Personal Website!</u></h1></div>
-         <style>
-             .center{
-                 display: block;
-                 margin-left: auto;
-                 margin-right: auto;
-                 border: 5px solid #fffeee;
-                 border-radius: 50%;
-                 width: 300px;
-                 height: 300px;
-                 margin-top: 6%;
-                 
-             }
-             #cartoon{
-                 
-             }
-             #intro{
-                 margin-top: 0%;
-             }
-             h1{
-                 font-size: 50px;
-                 text-align: center;
-                 font-family: garamond,rockwell, baskerville;
-                 font-weight: bold;
-                 
-             }
-        @keyframes h1 {
-    0% {
-        color: #fff
-    }
-
-    30% {
-        color: #000
-    }
-
-    60% {
-        color: #fff
-    }
-
-    90% {
-        color: #000
-    }
-
-    100% {
-        color: #fff
-    }
-}
-h1{
- -webkit-animation: h1 25s infinite;
-    animation: h1 10s infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;}
-         </style>
-        <script>
-function big(x) {
-  x.style.height = "320px";
-  x.style.width = "320px";
-}
-
-function normal(x) {
-  x.style.height = "300px";
-  x.style.width = "300px";
-}
-</script>
-        
+     
+          <div id="nameintro" >
+              <div class="forh3" style="margin-top: 150px; margin-left: 20px;margin-bottom: 0px; padding: 0;">
+                  <h3 style= "color: white; font-family: times new roman; font-size: 40px;"/ >Welcome</h3>
+              </div>
+              <div class="forh4" style="margin-top: 0px; margin-left: 200px; padding: 0;">
+                <h4 style= "color: white; font-family: times new roman; font-size: 40px;"/>to,</h4>
+              </div>
+                <div class="forh1" style="margin-top: 0px; margin-left: 20px; border: 10px solid #f3b597; padding: 5px;padding-left: 5px; width: 44%; background-color: white; border-radius: 20px; border-style: groove;">
+                <h1><a href='Homepage.html' style="text-decoration: none; color: #bc604a; font-family: times new roman; font-size: 45px; "/>Nur Izzaty's Personal Website!</a></h1>
+                </div>
+                
+            </div>
+      
     </body>
 </html>
