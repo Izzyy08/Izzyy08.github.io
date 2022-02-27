@@ -207,3 +207,18 @@ h4
   height:200px;
  
 }
+#filler{
+   text-align: justify;
+  text-justify: inter-word;
+   border: 5px inset #bc604a;
+  padding: 20px; 
+  margin-top: 5px;
+  width: 300px;
+ height:295px;
+  text-indent: 30px;
+  display:inline-block;
+  border-radius: 20px;
+  border-style: groove;
+  font-size: 16px;
+  font-family: garamond, rockwell, baskerville;
+}
